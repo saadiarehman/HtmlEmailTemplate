@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;800&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      body {
+        font-family: 'Catamaran', sans-serif;
+        background-color: #d8dbdb;
+        font-size: 18px;
+        max-width: 60%;
+        margin: 0 auto;
+        padding: 2%;
+        color: #565859;
+      }
+      #wrapper {
+        background: white;
+      }
+      img {
+        max-width: 100%;
+      }
+      header {
+        width: 98%;
+      }
+      #logo {
+        float: left;
+        width: 50%;
+      }
+      #social1 {
+        float: right;
+        margin: 3% 3% 2% 0;
+      }
+      #social {
+        margin-top: 80%;
+      }
+      #social li {
+        display: inline;
+        list-style-type: none;
+      }
+      #social li a {
+        text-decoration: none;
+      }
+      .banner {
+        margin-bottom: 3%;
+      }
+      .first-para {
+        padding: 3%;
+      }
+      h1 {
+        letter-spacing: 1%;
+      }
+      p {
+        text-align: justify;
+      }
+      .btn-holder {
+        float: right;
+        margin: 0 2% 4% 0;
+      }
+      .btn {
+        float: right;
+        background: #303840;
+        color: #f6faff;
+        text-decoration: none;
+        font-weight: 800;
+        padding: 8px 12px;
+        border-radius: 8px;
+        letter-spacing: 1px;
+      }
+      .btn:hover {
+        background: #2e2e2e;
+      }
+      .line {
+        clear: both;
+        height: 2px;
+        background-color: #e3e9e9;
+        margin: 4% auto;
+        width: 96%;
+      }
+      .second-para {
+        float: left;
+        width: 46%;
+        padding: 2%;
+      }
+      a {
+        color: #607cc3;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .Contact {
+        text-align: center;
+        padding-bottom: 3%;
+      }
+      @media (max-width: 600px) {
+        .second-para {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="logo">
+          <img src="/Html css Email Images/logo.PNG" />
+        </div>
+        <div id="social1">
+          <ul id="social">
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCzX4DZw3Sby65-YItnucNmA"
+                target="_blank"
+              >
+                <img
+                  src="/Html css Email Images/youtube.png"
+                  height="30px"
+                  width="30px"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/saadiarehman" target="_blank">
+                <img
+                  src="/Html css Email Images/github.png"
+                  height="30px"
+                  width="30px"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
+                <img
+                  src="/Html css Email Images/facebook.png"
+                  height="30px"
+                  width="30px"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/feed/" target="_blank">
+                <img
+                  src="/Html css Email Images/linkedin.png"
+                  height="30px"
+                  width="30px"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="banner">
+        <img src="/Html css Email Images/banner.jpg" />
+      </div>
+      <div class="first-para">
+        <h1>How to Create HTML Emails!</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nulla
+          voluptas aut. Illum veniam aliquid odit optio vitae odio adipisci quia
+          sit, natus a, exercitationem accusamus hic eius rem repellat. Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Sit ipsum eum
+          veritatis et cumque soluta veniam? Perferendis molestias esse corporis
+          impedit repudiandae quas, illum, nobis neque, modi iusto tenetur rem.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nulla
+          voluptas aut. Illum veniam aliquid odit optio vitae odio adipisci quia
+          sit, natus a, exercitationem accusamus hic eius rem repellat. Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Sit ipsum eum
+          veritatis et cumque soluta veniam? Perferendis molestias esse corporis
+          impedit repudiandae quas, illum, nobis neque, modi iusto tenetur rem.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nulla
+          voluptas aut. Illum veniam aliquid odit optio vitae odio adipisci quia
+          sit, natus a, exercitationem accusamus hic eius rem repellat. Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Sit ipsum eum
+          veritatis et cumque soluta veniam? Perferendis molestias esse corporis
+          impedit repudiandae quas, illum, nobis neque, modi iusto tenetur rem.
+        </p>
+        <div class="btn-holder">
+          <a class="btn" href="#" target="_blank">Show More</a>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="second-para">
+        <h2>Latest News Release</h2>
+        <img src="/Html css Email Images/Company-Branded-Email.png" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          rerum, earum impedit sit accusamus nam recusandae! Animi labore omnis
+          deleniti minus neque quos ad dolor, ducimus magni, sunt tenetur
+          dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Nesciunt aliquam tenetur possimus beatae amet. Dolorum doloribus quasi
+          modi vel cum obcaecati perspiciatis provident minima suscipit! Officia
+          accusamus delectus sequi nam!
+        </p>
+        <a href="#" target="_blank">Click here to Read More.....</a>
+      </div>
+      <div class="second-para">
+        <h2>Latest News Release</h2>
+        <img src="/Html css Email Images/Company-Branded-Email.png" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          rerum, earum impedit sit accusamus nam recusandae! Animi labore omnis
+          deleniti minus neque quos ad dolor, ducimus magni, sunt tenetur
+          dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Nesciunt aliquam tenetur possimus beatae amet. Dolorum doloribus quasi
+          modi vel cum obcaecati perspiciatis provident minima suscipit! Officia
+          accusamus delectus sequi nam!
+        </p>
+        <a href="#" target="_blank">Click here to Read More.....</a>
+      </div>
+      <div class="line"></div>
+      <p class="Contact">
+        Saadia Rehman
+        <br />
+        (+92) 313-0819944
+        <br />
+        Lahore - Punjab
+        <br />
+        saadiarehman25@gmail.com
+      </p>
+    </div>
+    <!----- End Wrapper ----->
+  </body>
+</html>
